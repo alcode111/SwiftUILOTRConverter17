@@ -45,7 +45,9 @@ struct ExchangeInfo: View {
                 .tint(.brown)
                 .font(.largeTitle)
                 .padding()
+                .foregroundStyle(.white)
             }
+            .foregroundStyle(.black)
         }
     }
 }
