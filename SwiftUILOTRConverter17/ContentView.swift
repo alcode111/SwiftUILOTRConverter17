@@ -69,6 +69,9 @@ struct ContentView: View {
                             .multilineTextAlignment(.trailing)
                     }
                 }
+                .padding()
+                .background(.black.opacity(0.5))
+                .clipShape(.capsule)
                 
                 Spacer()
                 

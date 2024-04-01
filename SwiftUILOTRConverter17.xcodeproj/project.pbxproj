@@ -11,6 +11,7 @@
 		EC5435192BBADE9800CD66B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5435182BBADE9800CD66B8 /* ContentView.swift */; };
 		EC54351B2BBADE9900CD66B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC54351A2BBADE9900CD66B8 /* Assets.xcassets */; };
 		EC54351E2BBADE9900CD66B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC54351D2BBADE9900CD66B8 /* Preview Assets.xcassets */; };
+		EC5435252BBB129200CD66B8 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EC5435182BBADE9800CD66B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC54351A2BBADE9900CD66B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC54351D2BBADE9900CD66B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EC5435162BBADE9800CD66B8 /* SwiftUILOTRConverter17App.swift */,
 				EC5435182BBADE9800CD66B8 /* ContentView.swift */,
+				EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */,
 				EC54351A2BBADE9900CD66B8 /* Assets.xcassets */,
 				EC54351C2BBADE9900CD66B8 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5435252BBB129200CD66B8 /* ExchangeInfo.swift in Sources */,
 				EC5435192BBADE9800CD66B8 /* ContentView.swift in Sources */,
 				EC5435172BBADE9800CD66B8 /* SwiftUILOTRConverter17App.swift in Sources */,
 			);
