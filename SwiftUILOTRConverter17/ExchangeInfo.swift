@@ -24,19 +24,7 @@ struct ExchangeInfo: View {
                     .font(.title2)
                     .padding()
                 
-                HStack {
-                    Image(.goldpiece)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 33)
-                    
-                    Text("1 Gold Piece = 4 Gold Pennies")
-                    
-                    Image(.goldpenny)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 33)
-                }
+//                ExchangeRate()
                 
                 Button("Done") {
                     
@@ -55,3 +43,4 @@ struct ExchangeInfo: View {
 #Preview {
     ExchangeInfo()
 }
+
