@@ -14,6 +14,7 @@
 		EC5435252BBB129200CD66B8 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */; };
 		EC5435272BBB249200CD66B8 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5435262BBB249200CD66B8 /* ExchangeRate.swift */; };
 		EC5435292BBB59B100CD66B8 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */; };
+		EC54352B2BBB653D00CD66B8 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 		EC5435262BBB249200CD66B8 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
+		EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EC5435182BBADE9800CD66B8 /* ContentView.swift */,
 				EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */,
 				EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */,
+				EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */,
 				EC5435262BBB249200CD66B8 /* ExchangeRate.swift */,
 				EC54351A2BBADE9900CD66B8 /* Assets.xcassets */,
 				EC54351C2BBADE9900CD66B8 /* Preview Content */,
@@ -151,6 +154,7 @@
 				EC5435252BBB129200CD66B8 /* ExchangeInfo.swift in Sources */,
 				EC5435192BBADE9800CD66B8 /* ContentView.swift in Sources */,
 				EC5435172BBADE9800CD66B8 /* SwiftUILOTRConverter17App.swift in Sources */,
+				EC54352B2BBB653D00CD66B8 /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

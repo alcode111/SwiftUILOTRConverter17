@@ -22,22 +22,7 @@ struct SelectCurrency: View {
                 Text("Select the currency you are starting with:")
                     .fontWeight(.bold)
                 
-                ZStack(alignment: .bottom) {
-                    Image(.copperpenny)
-                        .resizable()
-                        .scaledToFit()
-                    
-                    Text("Copper Penny")
-                        .padding(3)
-                        .font(.caption)
-                        .frame(maxWidth: .infinity)
-                        .background(.brown.opacity(0.75))
-
-                }
-                .padding(3)
-                .frame(width: 100, height: 100)
-                .background(.brown)
-                .clipShape(.rect(cornerRadius: 25))
+                CurrencyIcon(currencyImage: .copperpenny, currencyName: "Copper Penny")
                 
                 Text("Select the currency you would like to convert to:")
                     .fontWeight(.bold)
