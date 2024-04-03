@@ -16,6 +16,7 @@
 		EC5435292BBB59B100CD66B8 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */; };
 		EC54352B2BBB653D00CD66B8 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */; };
 		ECDEA7D22BBC80D700CE7E63 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDEA7D12BBC80D700CE7E63 /* Currency.swift */; };
+		ECE82F302BBD9B120096E57D /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE82F2F2BBD9B120096E57D /* IconGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
 		EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
 		ECDEA7D12BBC80D700CE7E63 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		ECE82F2F2BBD9B120096E57D /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EC5435182BBADE9800CD66B8 /* ContentView.swift */,
 				EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */,
 				EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */,
+				ECE82F2F2BBD9B120096E57D /* IconGrid.swift */,
 				EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */,
 				ECDEA7D12BBC80D700CE7E63 /* Currency.swift */,
 				EC5435262BBB249200CD66B8 /* ExchangeRate.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE82F302BBD9B120096E57D /* IconGrid.swift in Sources */,
 				EC5435272BBB249200CD66B8 /* ExchangeRate.swift in Sources */,
 				EC5435292BBB59B100CD66B8 /* SelectCurrency.swift in Sources */,
 				EC5435252BBB129200CD66B8 /* ExchangeInfo.swift in Sources */,
