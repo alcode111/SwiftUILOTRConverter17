@@ -56,6 +56,7 @@ struct ContentView: View {
                         TextField("Amount", text: $leftAmount)
                             .textFieldStyle(.roundedBorder)
                             .focused($leftTyping)
+                            .keyboardType(.decimalPad)
                     }
                     
                     Image(systemName: "equal")
@@ -83,6 +84,7 @@ struct ContentView: View {
                             .textFieldStyle(.roundedBorder)
                             .multilineTextAlignment(.trailing)
                             .focused($rightTyping)
+                            .keyboardType(.decimalPad)
                     }
                 }
                 .padding()
