@@ -56,12 +56,6 @@ struct ContentView: View {
                         TextField("Amount", text: $leftAmount)
                             .textFieldStyle(.roundedBorder)
                             .focused($leftTyping)
-                            .onChange(of: leftAmount) {
-                                if leftTyping {
-                                    rightAmount =
-                                    leftCurrency.convert(leftAmount, to: rightCurrency)
-                                }
-                            }
                     }
                     
                     Image(systemName: "equal")
@@ -89,12 +83,6 @@ struct ContentView: View {
                             .textFieldStyle(.roundedBorder)
                             .multilineTextAlignment(.trailing)
                             .focused($rightTyping)
-                            .onChange(of: rightAmount) {
-                                if rightTyping {
-                                    leftAmount =
-                                    rightCurrency.convert(rightAmount, to: leftCurrency)
-                                }
-                            }
                     }
                 }
                 .padding()
@@ -117,6 +105,20 @@ struct ContentView: View {
                 }
             }
         }
+        .onChange(of: leftAmount) {
+            if leftTyping {
+                rightAmount =
+                leftCurrency.convert(leftAmount, to: rightCurrency)
+            }
+        }
+        
+        .onChange(of: rightAmount) {
+            if rightTyping {
+                leftAmount =
+                rightCurrency.convert(rightAmount, to: leftCurrency)
+            }
+        }
+        
         .sheet(isPresented: $showExchangeInfo) {
             ExchangeInfo()
         }
