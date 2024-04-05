@@ -66,14 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				EC5435162BBADE9800CD66B8 /* SwiftUILOTRConverter17App.swift */,
+				ECDEA7D12BBC80D700CE7E63 /* Currency.swift */,
 				EC5435182BBADE9800CD66B8 /* ContentView.swift */,
 				EC5435242BBB129200CD66B8 /* ExchangeInfo.swift */,
 				EC5435282BBB59B100CD66B8 /* SelectCurrency.swift */,
 				ECE82F2F2BBD9B120096E57D /* IconGrid.swift */,
 				EC54352A2BBB653D00CD66B8 /* CurrencyIcon.swift */,
-				ECDEA7D12BBC80D700CE7E63 /* Currency.swift */,
-				EC3F12892BBF19E00015946C /* CurrencyTip.swift */,
 				EC5435262BBB249200CD66B8 /* ExchangeRate.swift */,
+				EC3F12892BBF19E00015946C /* CurrencyTip.swift */,
 				EC54351A2BBADE9900CD66B8 /* Assets.xcassets */,
 				EC54351C2BBADE9900CD66B8 /* Preview Content */,
 			);
