@@ -28,7 +28,7 @@ The Currency Exchange App is a SwiftUI application that allows users to perform 
 
 ## Credits
 
-- This project is a tutorial from Kenneth Jones' [UDEMY Course](https://scrimba.com/learn): "iOS 17, SwiftUI 5, & Swift 5.9: Build iOS Apps From Scratch".
+- This project is a tutorial from Kenneth Jones' [UDEMY Course](https://www.udemy.com/course/ios-15-app-development-with-swiftui-3-and-swift-5/?couponCode=KEEPLEARNING): "iOS 17, SwiftUI 5, & Swift 5.9: Build iOS Apps From Scratch".
 - Original project idea and design by Kenneth Jones.
 
 ## Author
