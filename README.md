@@ -1,6 +1,6 @@
 # Currency Exchange App
 
-<img src="RECAP' SwiftUI LOTR Converter.png" alt="Website Screenshot" width="400">
+<img src="RECAP' SwiftUI LOTR Converter.png" alt="Website Screenshot" width="800">
 
 ## Description
 
